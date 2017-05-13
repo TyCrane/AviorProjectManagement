@@ -1,0 +1,119 @@
+﻿/* COLOR SWATCH
+tealish rgb(65, 181, 190)
+teal grey rgb(114, 139, 141)
+light grey rgb(216, 218, 217)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+head {
+
+}
+body {
+	width: 100%;
+	font-family: Verdana, Tahoma, Arial, sans-serif;
+	font-size: 1em;
+    background-color: #05000d;
+    margin: auto;
+}
+
+/*Index Page**********************************************/
+.index_h1 {
+    position: absolute;
+    top: 20%;
+    left: 39%;
+    font-size: 5em;
+    color: white;
+}
+
+.index_h2 {
+    display: block;
+    height: 20em;
+    padding: 1%;
+    padding-bottom: 0%;
+}
+
+.index_h2 img {
+    width: 100%;
+    height: 100%;
+}
+
+.index_navBar {
+    background-color: #139ae8;
+    border: 1px solid white;
+    border-top: none;
+    margin: 1%;
+}
+
+.index_navBar li {
+    display: inline-block;
+    padding: 3%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    border-radius: 10px;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.index_navBar_list {
+    list-style: none;
+    padding: 1%;
+}
+
+.rjList {
+    margin-left: 60%;
+}
+
+.index_navBar li:hover {
+		background-color: #96d9ff;
+	}
+
+
+.test h1 {
+    color: blue;
+}
+
+
