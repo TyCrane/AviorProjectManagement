@@ -26,5 +26,10 @@ namespace AviorProjectManagement_V1._0.Controllers
 
             return View();
         }
+
+        public ActionResult temp_AddCompany()
+        {
+            return View();
+        }
     }
 }

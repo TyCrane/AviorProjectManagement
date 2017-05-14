@@ -15,9 +15,10 @@
     <ol class="index_navBar_list">
         <li>Taxes</li>
         <li>Companies</li>
-        <li class="rjList">Add</li>
+        <li class="rjList" onclick="location.href = '@Url.Action("Contact", "Home")' ">Add Company</li>
+        <li>Add Developer</li>
     </ol>
 </div>
-<div>
-    @Html.Partial("Add_Company")
-</div>
+@*<div>
+    @Html.Partial("Add_Company", new { @class:"load_addCompany_Partial" })
+</div>*@

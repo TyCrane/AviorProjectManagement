@@ -104,7 +104,7 @@ body {
 }
 
 .rjList {
-    margin-left: 60%;
+    margin-left: 30%;
 }
 
 .index_navBar li:hover {
@@ -116,4 +116,51 @@ body {
     color: blue;
 }
 
+
+/*Add Company Partial ***********************/
+
+.add_company_outer_div {
+    margin: 5%;
+    background-color: #97c5de;
+    padding: 5%;
+    padding-top: 1%;
+    margin-top: 1%;
+    border: 1em solid #2279ab;
+    border-radius: 10px;
+}
+
+.form_add_company h1 {
+    text-align: center;
+    color: white;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.form_add_company h2 {
+    text-align: left;
+    color: white;
+    font-size: 1.5em;
+    font-weight: bold;
+    border-left: 2px solid white;
+    padding-left: 3%;
+}
+
+.form_add_company {
+    background-color: #2279ab;
+    padding: 1%;
+}
+
+
+.list_input li {
+    color: white;
+    background-color: #2279ab;
+    display: inline-block;
+    margin: 2%;
+    padding-bottom: 1%;
+    display: inline-block;
+    font-size: 1.1em;
+    border-radius: 5px;
+    border-bottom: 1px solid white;
+    width: 26%;
+}
 
